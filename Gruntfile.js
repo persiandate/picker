@@ -1,7 +1,6 @@
 module.exports = function (grunt) {
     var fileBanner = '/*\n  <%= pkg.name %> - v<%= pkg.version %> \n ' +//
-        ' Author: reza babakhani \n ' + //
-        'http://babakhani.github.io/PersianWebToolkit/datepicker \n */\n'
+        'https://persiandate.github.io \n */\n'
 
     // Project configuration.
     grunt.initConfig({
@@ -35,7 +34,7 @@ module.exports = function (grunt) {
                     'src/js/state.js',
                     'src/js/mousewheel.js'
                 ],
-                dest: 'dist/js/<%= pkg.name %>-<%= pkg.version %>.js'
+                dest: 'dist/js/<%= pkg.name %>.js'
             }
         },
         uglify: {
@@ -43,8 +42,8 @@ module.exports = function (grunt) {
                 banner: fileBanner
             },
             build: {
-                src: 'dist/js/<%= pkg.name %>-<%= pkg.version %>.js',
-                dest: 'dist/js/<%= pkg.name %>-<%= pkg.version %>.min.js'
+                src: 'dist/js/<%= pkg.name %>.js',
+                dest: 'dist/js/<%= pkg.name %>.min.js'
             }
         },
         sass: {
@@ -58,7 +57,7 @@ module.exports = function (grunt) {
                         'src/css/<%= pkg.name %>.css': 'src/sass/persian-datepicker.scss'
                     },
                     {
-                        'dist/css/<%= pkg.name %>-<%= pkg.version %>.css': 'src/sass/persian-datepicker.scss'
+                        'dist/css/<%= pkg.name %>.css': 'src/sass/persian-datepicker.scss'
                     },
                     {
                         'dist/css/theme/<%= pkg.name %>-blue.css': 'src/sass/persian-datepicker-blue.scss'
@@ -81,7 +80,7 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         src: ['src/css/<%= pkg.name %>.css'],
-                        dest: 'dist/<%= pkg.version %>/css/<%= pkg.name %>-<%= pkg.version %>.css' }
+                        dest: 'dist/<%= pkg.version %>/css/<%= pkg.name %>.css' }
                 ]
 
             }
@@ -92,7 +91,7 @@ module.exports = function (grunt) {
             },
             combine: {
                 files: {
-                    'dist/css/<%= pkg.name %>-<%= pkg.version %>.min.css': ['src/css/<%= pkg.name %>.css']
+                    'dist/css/<%= pkg.name %>.min.css': ['src/css/<%= pkg.name %>.css']
                 }
             }
         },
@@ -100,7 +99,7 @@ module.exports = function (grunt) {
             dist: {
                 src: 'src/js',
                 options: {
-                    destination: 'doc/<%= pkg.version %>',
+                    destination: 'dist/doc/',
                     configure: 'doc/conf.json',
                     template: 'doc/templates/default'
                 }

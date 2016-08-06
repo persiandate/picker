@@ -1,42 +1,41 @@
 {
-    "name": "persiandate-picker",
-    "version": "0.5.0",
-    "keywords": [
-        "jquery-plugin",
-        "persian-datepicker",
-        "jalali-date",
-        "datetimepicker",
-        "bootstrap-datetimepicker",
-        "persian-date"
-    ],
-    "license": "MIT",
-    "author": "Reza Babakhani <babakhani.reza@gmail.com>",
-    "contributors": [
-        {
-            "name": "Reza Babakhani",
-            "email": "babakhani.reza@gmail.com"
-        }
-    ],
-    "repository": "git@github.com:persiandate/picker.git",
-    "homepage": "http://babakhani.github.io/PersianWebToolkit/doc/datepicker/version.html",
-    "bugs": {
-        "url": "https://github.com/persiandate/picker/issues"
-    },
-    "devDependencies": {
-        "coffee-script": "^1.9.2",
-        "grunt": "0.4.4",
-        "grunt-cli": "0.1.13",
-        "grunt-contrib-concat": "^0.5.0",
-        "grunt-contrib-copy ": "^0.2.0",
-        "grunt-contrib-cssmin ": "^0.10.0",
-        "grunt-contrib-sass": "^0.9.2",
-        "grunt-contrib-uglify ": "^0.1.0",
-        "grunt-contrib-watch": "*",
-        "grunt-jsdoc": "^0.5.7",
-        "jsdoc": "^3.2.0"
-    },
-    "dependencies": {
-        "jquery": ">=1.10.2",
-        "persiandate": ">=0.2.0"
+  "name": "persiandate-picker",
+  "version": "0.5.0",
+  "keywords": [
+    "jquery-plugin",
+    "persian-datepicker",
+    "jalali-date",
+    "datetimepicker",
+    "bootstrap-datetimepicker",
+    "persian-date"
+  ],
+  "license": "MIT",
+  "author": "Reza Babakhani <babakhani.reza@gmail.com>",
+  "contributors": [
+    {
+      "name": "Reza Babakhani",
+      "email": "babakhani.reza@gmail.com"
     }
+  ],
+  "repository": "git@github.com:persiandate/picker.git",
+  "homepage": "https://persiandate.github.io/PersianWebToolkit/doc/datepicker/version.html",
+  "bugs": {
+    "url": "https://github.com/persiandate/picker/issues"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-jsdoc": "^2.1.0",
+    "jquery": "^3.1.0",
+    "jsdoc": "^3.4.0",
+    "persiandate": "^0.2.0"
+  }
 }
