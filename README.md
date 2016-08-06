@@ -1,11 +1,8 @@
-pwt.datepicker
-==============
-
-Jalali calendar datepicker, which depends on https://github.com/babakhani/PersianDate
-
-[Documents](http://babakhani.github.io/PersianWebToolkit/datepicker)
+# Persian Date Picker
+Jalali Calendar Date picker
 
 
-persian, datepicker, date, khayam, jalali, jquery, plugin, javascript, js, persian web toolkit, pwt,
-bootstrap timepicker, bootstrap datetimepicker
+# Contributors 
 
+- This library is original based on [babakhani/pwt.datepicker](https://github.com/babakhani/pwt.datepicker)
+- Thanks for [contributors](https://github.com/persiandate/picker/graphs/contributors) for lots of bug-fixes.
