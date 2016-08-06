@@ -99,7 +99,7 @@ module.exports = function (grunt) {
             dist: {
                 src: 'src/js',
                 options: {
-                    destination: 'dist/doc/',
+                    destination: 'doc/',
                     configure: 'doc/conf.json',
                     template: 'doc/templates/default'
                 }
