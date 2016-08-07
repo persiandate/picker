@@ -1,5 +1,5 @@
 /*
-  persiandate-picker - v0.5.0 
+  persiandate-picker - v0.5.1 
  https://persiandate.github.io 
  */
 ( function () {(function ($) {
